@@ -1,0 +1,170 @@
+body{
+   
+}
+h1{
+    font-family: 'PT Serif', serif;
+    color:black;
+    font-size: 80px;
+    cursor: pointer;
+   animation: glow 2s ease-in-out infinite;
+}
+
+h2{
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+   
+}
+
+
+.blink{
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 2;
+    animation: glow 2s ease-in-out infinite;
+}
+@keyframes glow
+{
+    from{
+        color: #7A3E65;
+    }
+    to{
+        color: #fff;
+        text-shadow: 
+        0 0 5px #7A3E65,
+        0 0 10px #7A3E65,
+        0 0 15px #7A3E65,
+        0 0 20px #7A3E65;
+    }
+}
+.navbar
+{
+    background-color: #913175 !important;
+    padding: 1%;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: black !important;
+    text-decoration: underline;
+}
+
+.f-pg
+{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 2.5rem;
+    color:  #fff;
+    padding: 5% 3%;
+    
+}
+/* content */
+#content{
+padding: 4% 25%;
+background-color: #913175;
+color: #fff;
+}
+#content h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+text-align: center;
+}
+#content p{
+    
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+/* kutties */
+
+#kutties{
+    padding: 8%;
+    
+}
+.papa-img
+{
+    width: 50%;
+    border-radius: 50% !important;
+    padding: 0 0 0 15%;
+    background:#913175;
+    
+ }
+ 
+ #kutties p{
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #7A3E65;
+    
+ }
+#footer
+{
+    padding: 2%;
+    background-color: #913175;
+   color: #fff ;
+   text-align: center;
+}
+.f-link{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+   
+    
+}
+.fa-solid{
+    padding: 5% 2%;
+    
+}
+.fa-solid:hover{
+color: black;
+}
+.f-link:hover{
+    color: black;
+}
+@media screen and (max-width:576px) {
+    #content{
+        padding: 4% 10%;
+        background-color: #913175;
+        color: #fff;
+        }
+    #content h2{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'PT Serif', serif;
+    text-align: center;
+    }
+    #content p{
+        
+        font-family: 'Sacramento', cursive;
+        font-size: 30px;
+        text-align: center;
+    }
+    .nithi {
+        float: left;
+    
+        
+
+    }
+    .dekshi{
+     
+        float: right;
+    }
+
+   
+    
+}
